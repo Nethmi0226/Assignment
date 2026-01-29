@@ -1,12 +1,14 @@
 def calculate_sum(a, b):
-    """
-    Returns the sum of two numbers.
-    """
+    """Returns the sum of two numbers."""
     return a + b
 
-# Example Usage:
-first_number = 15
-second_number = 27
+def calculate_difference(a, b):
+    """Returns the difference between two numbers."""
+    return a - b
 
-result = calculate_sum(first_number, second_number)
-print(f"The result of {first_number} + {second_number} is: {result}")
+# Example Usage:
+num1 = 50
+num2 = 20
+
+print(f"Addition Result: {calculate_sum(num1, num2)}")
+print(f"Subtraction Result (Difference): {calculate_difference(num1, num2)}")
